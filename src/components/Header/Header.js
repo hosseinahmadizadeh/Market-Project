@@ -10,8 +10,12 @@ const Header = () => {
         <Container>
           <Navbar.Brand href="/">Market</Navbar.Brand>
           <Nav>
-            <Nav.Link href="/cart">Account</Nav.Link>
-            <Nav.Link href="/account">Orders</Nav.Link>
+            <Nav.Link href="/cart">
+              <i className="fa fa-shopping-cart"></i>
+            </Nav.Link>
+            <Nav.Link href="/account">
+              <i className="fa fa-user"></i>
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
